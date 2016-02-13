@@ -30,7 +30,8 @@
         android:layout_alignLeft="@+id/Register"
         android:layout_alignStart="@+id/Register"
         android:id="@+id/nameLayout"
-        android:layout_marginTop="32dp">
+        android:layout_marginTop="32dp"
+        android:layout_margin="3dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -44,6 +45,8 @@
             android:inputType="textPersonName"
             android:hint="@string/name"
             android:ems="10"
+            android:background="@drawable/curved_bg"
+            android:padding="10dp"
             android:id="@+id/name" />
     </LinearLayout>
 
@@ -53,7 +56,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/nameLayout"
         android:layout_centerHorizontal="true"
-        android:id="@+id/passwordLayout">
+        android:id="@+id/passwordLayout"
+        android:layout_margin="3dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -67,6 +71,8 @@
             android:inputType="textPassword"
             android:ems="10"
             android:hint="@string/password"
+            android:background="@drawable/curved_bg"
+            android:padding="10dp"
             android:id="@+id/password" />
     </LinearLayout>
 
@@ -76,7 +82,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/vpassLayout"
         android:layout_below="@+id/passwordLayout"
-        android:layout_centerHorizontal="true">
+        android:layout_centerHorizontal="true"
+        android:layout_margin="3dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -90,6 +97,8 @@
             android:inputType="textPassword"
             android:ems="10"
             android:hint="@string/vpass"
+            android:background="@drawable/curved_bg"
+            android:padding="10dp"
             android:id="@+id/ConfirmPassword" />
     </LinearLayout>
 
@@ -99,7 +108,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/vpassLayout"
         android:id="@+id/phoneLayout"
-        android:layout_centerHorizontal="true">
+        android:layout_centerHorizontal="true"
+        android:layout_margin="3dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -113,6 +123,8 @@
             android:inputType="phone"
             android:hint="@string/phone"
             android:ems="10"
+            android:background="@drawable/curved_bg"
+            android:padding="10dp"
             android:id="@+id/phone" />
     </LinearLayout>
 
@@ -122,7 +134,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/emailLayout"
         android:layout_below="@+id/phoneLayout"
-        android:layout_centerHorizontal="true">
+        android:layout_centerHorizontal="true"
+        android:layout_margin="3dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -136,6 +149,8 @@
             android:inputType="textEmailAddress"
             android:hint="@string/emailEg"
             android:ems="10"
+            android:background="@drawable/curved_bg"
+            android:padding="10dp"
             android:id="@+id/email" />
     </LinearLayout>
 
@@ -144,7 +159,8 @@
         android:layout_height="match_parent"
         android:layout_below="@+id/emailLayout"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentStart="true"
+        android:layout_margin="3dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
