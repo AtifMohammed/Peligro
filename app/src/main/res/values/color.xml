@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#f00</color>
+    <color name="themeBlue">#007A5C</color>
+    <color name="buttons">#007A3D</color>
+    <color name="white">#fff</color>
+    <color name="lemon">#ffe63b</color>
+    <color name="orange">#ff9900</color>
+</resources>
